@@ -1,0 +1,14 @@
+Blog_Community PROJECT
+------------------------
+1_ // for many language composer
+require astrotomic/laravel-translatable
+2_ // mn7ader ldatabase blsura number one
+3_mnzida bi tale users
+$table->enum('status',['writer','admin']);
+
+la an baed ma 5lsna ma 3m ynzl larabic fa 3mlna he
+1_ php artisan vendor
+2_yes
+3_21
+//bynzl config/transabled
+4_ mnzid  'ar bi albo'
