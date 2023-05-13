@@ -48,13 +48,14 @@
         </div>
         <div class="row align-items-center py-2 px-lg-5">
             <div class="col-lg-4">
-                <a href="" class="navbar-brand d-none d-lg-block">
+                <a href="{{route('login')}}" class="navbar-brand d-none d-lg-block">
                     <img src="{{ asset('public/' . $settings->logo) }}" alt="" style="height: 70px">
                 </a>
             </div>
             <div class="col-lg-8 text-center text-lg-right">
+                <a href="{{route('login')}}">
                 <img class="img-fluid" src="{{ asset('public/' . $settings->logo) }}" alt=""
-                    style="height: 70px">
+                    style="height: 70px"></a>
             </div>
         </div>
     </div>
@@ -123,7 +124,7 @@
     <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
         <div class="row">
             <div class="col-lg-6 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
+                <a href="{{route('login')}}" class="navbar-brand">
 
                     <img src="{{ asset('public/' . $settings->logo) }}" alt="" style="height: 70px">
                 </a>

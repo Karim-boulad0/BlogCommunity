@@ -56,6 +56,7 @@ class Kernel extends HttpKernel
      */
     protected $routeMiddleware = [
         'CheckLanguageApi' => \App\Http\Middleware\CheckLanguageApi::class,
+        'checkuser' => \App\Http\Middleware\CheckUser::class,
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,

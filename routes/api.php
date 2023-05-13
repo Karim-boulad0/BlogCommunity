@@ -19,3 +19,6 @@ route::get('categories_with_posts', [CategoriesController::class, 'categories_wi
 route::post('login', [LoginController::class, 'login']);
 route::post('logout', [LoginController::class, 'logout'])->middleware('auth:sanctum');
 route::apiresource('categoryadmin', CategoryAdminController::class)->except('index', 'show')->middleware('auth:sanctum');
+route::get('test',function(){
+    dd('yes');
+});
